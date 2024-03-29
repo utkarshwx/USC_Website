@@ -6,6 +6,7 @@ import Believe from '../components/believe'
 import About from '../components/about'
 import Testimonial from '../components/testimonial '
 import Footer from '../components/footer'
+import Champion from '../components/champion'
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Community/>
       <Believe/>
       <About/>
+      <Champion/>
       <Testimonial/>
       <Footer/>
     </div>
