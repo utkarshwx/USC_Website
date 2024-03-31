@@ -4,7 +4,7 @@ import bg1 from '../assets/images/cummunity/bgImage1.svg'
 import bg2 from '../assets/images/cummunity/bgImage2.svg'
 export default function Community() {
     return (
-        <section className='bg-black lg:h-[890px] h-screen' >
+        <section className='bg-black lg:h-[800px] h-screen'>
             <div className=' lg:h-1/2 flex flex-row justify-center '>
                  <img src={uiPath} alt='' className='h-2/4 lg:my-28 my-14 w-10/12 '/>
             </div>
