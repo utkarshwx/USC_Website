@@ -56,7 +56,7 @@ export default function Advisory() {
             animate={mainAnimation}
             transition={{ duration: .5, delay: item.delay }} className="lg:w-3/12 md:w-4/12 sm:w-6/12 w-full wrapper px-7">
             <div className="image w-full rounded-md h-[210px] overflow-hidden bg-slate-300">
-              <img src={item.src} alt="img" />
+              <img src={item.src} className='w-full' alt="img" />
             </div>
             <div className="name text-center my-2 text-xl">
               {item.name}

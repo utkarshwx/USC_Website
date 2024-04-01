@@ -13,7 +13,7 @@ export default function Champion() {
   return (
     <section >
       <div className="wrapper w-11/12 mx-auto py-8">
-        <div className="title text-center font-bold text-4xl flex gap-2 justify-center">
+        <div className="title text-center font-bold md:text-4xl text-2xl flex gap-2 justify-center">
           <motion.span
             ref={ref}
             variants={{

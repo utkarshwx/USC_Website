@@ -54,7 +54,7 @@ export default function Footer() {
                 </div>
                 <div className="md:w-6/12 w-full mt-2">
                     <div className="wrapper flex flex-wrap justify-center">
-                        <div className="w-6/12">
+                        <div className="md:w-6/12 w-full">
                             <div className="title my-2 font-semibold">
                                 CONTACT US
                             </div>
@@ -86,7 +86,7 @@ export default function Footer() {
                                 </li>
                             </ul>
                         </div>
-                        <div className="w-6/12">
+                        <div className="md:w-6/12 w-full">
                             <div className="title my-2 font-semibold">
                                 VISIT US AT
                             </div>
