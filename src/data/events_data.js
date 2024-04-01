@@ -1,4 +1,4 @@
-export const eventsData = [
+export  const eventsData = [
   {
     date: "20 JAN",
     name: "ORIENTATION SYNERGY",

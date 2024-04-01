@@ -1,7 +1,10 @@
 import React from 'react'
+import Navbar from '../components/navbar'
 
 export default function Domains() {
   return (
-    <div>Domains</div>
+    <div>
+      <Navbar/>
+    </div>
   )
 }

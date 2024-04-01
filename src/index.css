@@ -9,6 +9,7 @@ body {
   background-color: #0F0F0F;
 color: white;
 font-family: "Poppins", sans-serif;
+overflow-x: hidden;
 }
 
 code {
@@ -89,8 +90,15 @@ footer{
   top: -30px;
   left: -30px;
 }
-
-
+#project_area{
+  /* background-color: url("./assets/images/GEO_SPHERES\ 03.png") */
+}
+.team_main_bop_wrapper:hover img{
+  transform: scale(1.2);
+}
+.team_main_bop_wrapper:hover{
+  box-shadow: 1px 1px 15px 1px #f97f515e;
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
