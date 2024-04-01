@@ -13,6 +13,7 @@ import Error from './pages/Error';
 
 function App() {
   return (
+
     <Routes>
       <Route path='/' element={<Home />} />
       <Route path='/Domains' element={<Domains />} />
@@ -22,9 +23,8 @@ function App() {
       <Route path='/Blog' element={<Blog />} />
       <Route path='/Gallery' element={<Gallery />} />
       <Route path='/*' element={<Error />} />
-
-
     </Routes>
+
   );
 }
 
