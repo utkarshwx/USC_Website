@@ -11,7 +11,9 @@ import { MainProject } from "./pages/Projects";
 
 function App() {
   return (
+
     <Routes>
+
       <Route path="/" element={<Home />} />
       <Route path="/Domains" element={<Domains />} />
       <Route path="/Events" element={<Events />} />
@@ -20,7 +22,9 @@ function App() {
       <Route path="/Blog" element={<Blog />} />
       <Route path="/Gallery" element={<Gallery />} />
       <Route path="/*" element={<Error />} />
+
     </Routes>
+
   );
 }
 
