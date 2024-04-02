@@ -1,7 +1,8 @@
 import React from 'react'
 import uiPath from '../assets/images/cummunity/uiPathStudentCommunity.svg'
 import bg1 from '../assets/images/cummunity/bgImage1.svg'
-import bg2 from '../assets/images/cummunity/bgImage2.svg'
+import bg2 from '../assets/images/cummunity/bgImage2.svg';
+
 export default function Community() {
     return (
         <section className='bg-black lg:h-[800px] h-screen'>

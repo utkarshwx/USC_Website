@@ -1,6 +1,7 @@
 import CreativeDomainDataRenderer from '../components/DomainsDetails/CreativeDomainRender';
 import Navbar from '../components/navbar'
-import DomainDataRenderer from '../components/DomainsDetails/DomainDetailsRender';
+import DomainDataRenderer from '../components/DomainsDetails/DomainDetailsRender';import Navbar from '../components/navbar'
+
 export default function Domains() {
   return (
     <section className='bg-domain mx-auto'>

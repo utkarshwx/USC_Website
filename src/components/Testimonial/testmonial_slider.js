@@ -42,6 +42,10 @@ export default function TestmonialSlider({ swiperRef, faculty_data }) {
                     500: {
                         slidesPerView: 1,
                         spaceBetweenSlides: 0
+                    },
+                    400: {
+                        slidesPerView: 1,
+                        spaceBetweenSlides: 0
                     }
                 }}
 
