@@ -61,7 +61,7 @@ export default function LeadSlider() {
                     },
                     400: {
                         slidesPerView: 1,
-                        spaceBetweenSlides: 10
+                        spaceBetweenSlides: 10,
                     }
                 }}
 

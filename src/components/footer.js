@@ -70,7 +70,9 @@ export default function Footer() {
                                         <IoCallOutline />
                                     </div>
                                     <div className="text">
-                                        +91-1234 5678 21
+                                        M Disha +91-9337489151
+
+
                                     </div>
                                 </li>
                                 <li className='flex items-center gap-2 text-[15px] mt-1'>
@@ -78,7 +80,7 @@ export default function Footer() {
                                         <IoCallOutline />
                                     </div>
                                     <div className="text">
-                                        +91-1234 5678 21
+                                        Anuska Maity  +91-9804277745
                                     </div>
                                 </li>
                                 <li className='flex items-center gap-2 text-[15px] mt-1'>
@@ -86,7 +88,18 @@ export default function Footer() {
                                         <MdMailOutline />
                                     </div>
                                     <div className="text">
-                                        something@gmail.com
+                                        manvidisha0803@gmail.com
+                                    
+
+                                    </div>
+                                </li>
+                                <li className='flex items-center gap-2 text-[15px] mt-1'>
+                                    <div className="icon">
+                                        <MdMailOutline />
+                                    </div>
+                                    <div className="text">
+
+                                        anuska09.maity@gmail.com
 
                                     </div>
                                 </li>
