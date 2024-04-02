@@ -62,6 +62,13 @@ export default function LeadSlider() {
                     400: {
                         slidesPerView: 1,
                         spaceBetweenSlides: 10,
+                    },
+                    300: {
+                        slidesPerView: 1,
+                        spaceBetweenSlides: 10,
+                    }, 200: {
+                        slidesPerView: 1,
+                        spaceBetweenSlides: 10,
                     }
                 }}
 
