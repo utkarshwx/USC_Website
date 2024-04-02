@@ -1,7 +1,9 @@
 import CreativeDomainDataRenderer from '../components/DomainsDetails/CreativeDomainRender';
 import Navbar from '../components/navbar';
 import DomainDataRenderer from '../components/DomainsDetails/DomainDetailsRender';
-
+import {creativeDomainData} from "../components/DomainsDetails/creative_domain";
+import CreativeDomainDetails from "../components/DomainsDetails/creativeDomains";
+import Footer from '../components/footer';
 export default function Domains() {
   return (
     <section className='bg-domain mx-auto'>
@@ -19,15 +21,24 @@ export default function Domains() {
   </div>  
     <div className='bg-domain-box xl:mx-36 lg:mx-16  mx-4 my-20 xl:p-20 lg:p-8 rounded-2xl'>
   <div className="md:flex md:flex-wrap">
-    {[...Array(2)].map((_, index) => (
+  {creativeDomainData.map((item, index) => (
+        <CreativeDomainDetails
+          key={index}
+          image={item.image}
+          name={item.name}
+          description={item.description}
+          buttonLink={item.buttonLink}
+        />
+      ))}
+    {/* {[...Array(2)].map((_, index) => (
       <div key={index} className="md:w-1/2  p-4">
         <CreativeDomainDataRenderer />
       </div>
-    ))}
+    ))} */}
   </div>
 </div>
 
-
+<Footer/>
     </section>
   );
 }

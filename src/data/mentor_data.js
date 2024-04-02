@@ -2,7 +2,7 @@ const MentorData = [
     {
       index: 0,
       name: 'Dr. Subhra Debdas',
-      src: require('../assets/images/facultyImages/faculty1.jpg'),
+      src: require('../assets/images/facultyImages/Subhra.jpg'),
       role:"FACULTY IN-CHARGE",
   
       position:
@@ -12,7 +12,7 @@ const MentorData = [
     {
       index: 1,
       name: 'Dr. Abhishek Ray',
-      src: require('../assets/images/facultyImages/faculty2.jpg'),
+      src: require('../assets/images/facultyImages/abhishek.jpg'),
       role:"POINT OF CONTACT",
   
       position:
