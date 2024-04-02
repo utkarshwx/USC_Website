@@ -40,10 +40,16 @@ export default function Footer() {
                     </div>
                     <div className="socal_icon flex gap-4 items-center mt-2">
                         <div className="box cursor-pointer hover:translate-y-1 transition-all duration-300">
-                            <FaInstagram />
+                            <a href="https://www.instagram.com/usc.kiit/" target='_blank'>
+                                <FaInstagram />
+
+                            </a>
                         </div>
                         <div className="box cursor-pointer hover:translate-y-1 transition-all duration-300">
-                            <LuLinkedin />
+                            <a target='_blank' href="https://www.linkedin.com/company/uipath-community-kiit/mycompany/">
+                                <LuLinkedin />
+
+                            </a>
 
                         </div>
                         <div className="box cursor-pointer hover:translate-y-1 transition-all duration-300">

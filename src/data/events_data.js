@@ -23,4 +23,12 @@ export  const eventsData = [
     venue: "USC KIIT",
     link: "https://www.instagram.com/p/C2RWUf4hOEZ/?igsh=czE0MmpuaG5wb29z",
   },
+  {
+    date: "4 April",
+    name: "Automatrix",
+    descripton:
+      " Dive deep into the world of automation with a hands-on 2-hour workshop, focusing on email automation using cutting-edge tools",
+    venue: "USC KIIT",
+    link: "https://www.instagram.com/p/C5Hy1CfPWdJ/?igsh=MWIzMzZoNTJta2Nrcg",
+  },
 ];

@@ -14,7 +14,7 @@ export default function Events() {
           Lectures,workshops & master-classes
         </h1>
       </div>
-      <div className="md:h-screen h-[200vh] w-full relative">
+      <div className="md:h-[120vh] h-[280vh] w-full relative">
         <div className="absolute flex items-center justify-center flex-col md:flex-row flex-wrap gap-10 -top-16 z-10">
           {eventsData.map((event) => {
             return (

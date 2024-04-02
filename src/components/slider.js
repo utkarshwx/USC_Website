@@ -1,4 +1,4 @@
-import { useState , useEffect} from 'react';
+import { useState, useEffect } from 'react';
 import Glide from "@glidejs/glide"
 import { Controls, Breakpoints } from '@glidejs/glide/dist/glide.modular.esm'
 import slider from '../assets/images/cummunity/slider.svg'
@@ -39,30 +39,30 @@ export default function Slider_() {
 
 
     <>
-     {/*<!-- Component: Testimonial carousel --> */}
-     <div className="glide-08 relative w-full overflow-hidden bg-orange-600 py-6">
+      {/*<!-- Component: Testimonial carousel --> */}
+      <div className="glide-08 relative w-full overflow-hidden bg-gradient-to-r from-red-400 to-orange-500 py-6">
         {/*    <!-- Slides --> */}
-        <div data-glide-el="track" className=''>
-          <ul className="whitespace-no-wrap bg flex-no-wrap [backface-visibility: hidden] [transform-style: preserve-3d] [touch-action: pan-Y] [will-change: transform] relative flex w-full overflow-hidden ">
+        <div data-glide-el="track" className='h-72'>
+          <ul className="whitespace-no-wrap bg h-72 flex-no-wrap [backface-visibility: hidden] [transform-style: preserve-3d] [touch-action: pan-Y] [will-change: transform] relative flex w-full overflow-hidden ">
             <li className='shadow-stone-500 '>
-              <div className="h-full w-full">
-                {/*                    <!-- Start Testimonial --> */}
-               <img src={slider} alt='' />
-                {/*                    <!-- End Testimonial --> */}
+              <div className="container rounded-2xl text-5xl text-start h-full w-full">
+                <ul>
+                  <li>" Connect</li>
+                  <li>Learn & </li>
+                  <li>Collaborate "</li>
+                </ul>
               </div>
             </li>
             <li>
-              <div className="h-full w-full">
-                {/*                    <!-- Start Testimonial --> */}
-                <img src={slider} alt='' />
-                {/*                    <!-- End Testimonial --> */}
+              <div className=" h-full w-full container rounded-2xl text-4xl text-start px-10 text-pretty leading-relaxed">
+
+                " Together , lets automate for a brighter future. "
+
               </div>
             </li>
             <li>
-              <div className="h-full w-full">
-                {/*                    <!-- Start Testimonial --> */}
-                <img src={slider} alt='' />
-                {/*                    <!-- End Testimonial --> */}
+              <div className=" h-full w-full container rounded-2xl text-4xl text-start px-10 text-pretty leading-relaxed">
+                "Transforming dreams into automated realities"
               </div>
             </li>
           </ul>
