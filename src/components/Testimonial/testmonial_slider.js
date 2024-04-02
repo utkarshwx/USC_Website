@@ -23,7 +23,7 @@ export default function TestmonialSlider({ swiperRef, faculty_data }) {
                     nextEl: '.custom-swiper-next',
                     prevEl: '.custom-swiper-prev',
                 }}
-                slidesPerView={2}
+                slidesPerView={1}
                 spaceBetween={30}
 
                 breakpoints={{
