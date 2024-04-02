@@ -16,8 +16,8 @@ export const MainProject = () => {
               <h1 className=" text-white text-6xl">PROJECTS</h1>
             </div>
             <div className="">
-              <div className=" ml-20 h-fit w-fit p-8 border rounded-full px-24 shadow-3xl border-[#FFA371] shadow-[#FFA371]">
-                <div className=" text-white md:text-2xl text-xl">Coming Soon!</div>
+              <div className=" ml-20 h-fit w-fit p-8 border rounded-full md:px-24 px-12 shadow-3xl border-[#FFA371] shadow-[#FFA371]">
+                <div className=" text-white lg:text-2xl md:text-xl text-lg">Coming Soon!</div>
               </div>
             </div>
           </div>
