@@ -1,6 +1,6 @@
 import CreativeDomainDataRenderer from '../components/DomainsDetails/CreativeDomainRender';
-import Navbar from '../components/navbar'
-import DomainDataRenderer from '../components/DomainsDetails/DomainDetailsRender';import Navbar from '../components/navbar'
+import Navbar from '../components/navbar';
+import DomainDataRenderer from '../components/DomainsDetails/DomainDetailsRender';
 
 export default function Domains() {
   return (
