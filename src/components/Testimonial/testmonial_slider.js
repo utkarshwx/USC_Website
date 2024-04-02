@@ -28,11 +28,11 @@ export default function TestmonialSlider({ swiperRef, faculty_data }) {
 
                 breakpoints={{
                     1280: {
-                        slidesPerView: 2,
+                        slidesPerView: 1,
                         spaceBetweenSlides: 0
                     },
                     1024: {
-                        slidesPerView: 2,
+                        slidesPerView: 1,
                         spaceBetweenSlides: 0
                     },
                     640: {
