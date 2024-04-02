@@ -2,7 +2,7 @@
     width: 100%;
     position: relative;
     background: linear-gradient(172deg, black, #b47e1b);
-    min-height: 380px;
+    /* min-height: 380px; */
     padding: 12px;
     border-radius: 15px;
     border: 1px solid #ffffff99;}
