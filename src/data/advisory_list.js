@@ -2,7 +2,7 @@ const advisory_list = [
     {
         index: 0,
         name: "Dr. Prachet Bhuyan",
-        src: require('../assets/images/Ac1.png'),
+        src: require('../assets/images/Ac1.jpg'),
         delay: .35,
     },
     {

@@ -12,7 +12,7 @@ const MentorData = [
     {
       index: 1,
       name: 'Dr. Abhishek Ray',
-      src: require('../assets/images/images/img_2.jpg'),
+      src: require('../assets/images/facultyImages/abhishek_2.jpg'),
       role:"Touchstone Nexus",
   
       position:
