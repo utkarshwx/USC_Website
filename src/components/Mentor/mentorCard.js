@@ -23,8 +23,8 @@ export default function MentorCard({ name, position, src, role,delay }) {
         animate={mainAnimation}
         transition={{ duration: .5, delay: delay }}
         className='md:w-3/12 md:px-0 w-full px-12 mentor_card'>
-        <div className="image h-[300px] w-full relative bg-slate-200 rounded-md overflow-hidden">
-            <img src={src} alt="img" className='w-full h-full' />
+        <div className="image h-[220px] w-full relative bg-slate-200 rounded-md overflow-hidden">
+            <img src={src} alt="img" className='w-full' />
         </div>
         <div className="content my-2 text-center">
             <div className="post_type text-2xl">

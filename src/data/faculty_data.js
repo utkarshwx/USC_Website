@@ -10,21 +10,13 @@ const FacultyData = [
   {
     index: 1,
     name: 'Dr. Abhishek Ray',
-    src: require('../assets/images/facultyImages/abhishek.jpg'),
+    src: require('../assets/images/IMG_0287.JPG'),
     role:"POINT OF CONTACT",
 
     review:
       "In my role as the Academic Supervisor, I urge members of the UiPath Student Community at KIIT to foster a spirit of curiosity, persistent learning, and teamwork. It's crucial to stay dedicated to refining your automation abilities, given their immense significance in the ever-evolving tech environment. Consider every challenge as a chance for personal and collective advancement. Aim for exceptional performance and make valuable contributions to the community. Your unwavering commitment will undeniably shape a bright future within the realm of robotic process automation. Wishing you the very best on your UiPath journey!",
   },
-  // {
-  //   index: 2,
-  //   name: 'Dr. Abhishek Ray',
-  //   src: require('../assets/images/facultyImages/abhishek.jpg'),
-  //   role:"POINT OF CONTACT",
-
-  //   review:
-  //     "In my role as the Academic Supervisor, I urge members of the UiPath Student Community at KIIT to foster a spirit of curiosity, persistent learning, and teamwork. It's crucial to stay dedicated to refining your automation abilities, given their immense significance in the ever-evolving tech environment. Consider every challenge as a chance for personal and collective advancement. Aim for exceptional performance and make valuable contributions to the community. Your unwavering commitment will undeniably shape a bright future within the realm of robotic process automation. Wishing you the very best on your UiPath journey!",
-  // },
+ 
 ]
 
 export default FacultyData
