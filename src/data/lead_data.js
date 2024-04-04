@@ -167,11 +167,11 @@ const LeadData = [
   {
     index: 15,
     src: require("../assets/images/leads/abhik.png"),
-    name: "Abhik Sadhab",
+    name: "Abhik Patra",
     postion: "Web development",
-    // instagram: "https://www.instagram.com/mr_sadhab?igsh=bmU3NXkwM2V0dGFh",
-    // gamil: "akashkumarsadhab@gmail.com",
-    // linkedin: "https://www.linkedin.com/in/akash-sadhab/",
+    instagram: "https://www.instagram.com/abhik_patra_/",
+     gamil: "abhik2005personal@gmail.com",
+     linkedin: "https://www.instagram.com/abhik_patra_/",
   },
 
   {
