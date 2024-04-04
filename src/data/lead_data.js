@@ -5,12 +5,13 @@ const LeadData = [
     name: "Atri Bandyopadhyay",
     postion: "Coordinator & UiPath Automation Tools",
     instagram: "https://www.instagram.com/atriclicky?igsh=enQwdG5xNmNqdDNv",
+    instagram: "https://www.instagram.com/atriclicky?igsh=enQwdG5xNmNqdDNv",
     gamil: "atricc03@gmail.com",
     linkedin: "https://www.linkedin.com/in/atri-/",
   },
   {
     index: 3,
-    src: require("../assets/images/leads/saptak.jpg"),
+    src: require("../assets/images/leads/saptak.png"),
     name: "Saptak Das",
     postion: "Vice-Coordinator & Photography",
     instagram: "https://www.instagram.com/s.saptak6?igsh=aWNuMHRyY2F4Z2Ni",
@@ -47,7 +48,7 @@ const LeadData = [
   },
   {
     index: 7,
-    src: require("../assets/images/leads/disha.jpg"),
+    src: require("../assets/images/leads/disha.png"),
     name: "M Disha",
     postion: "Associate Coordinator & RPA & AI",
     instagram:

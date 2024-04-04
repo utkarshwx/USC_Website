@@ -74,8 +74,8 @@ export default function LeadSlider() {
         {lead_data.map((item, index) => (
           <SwiperSlide key={index}>
             <div className="card ">
-              <div className="des_bx pt-5 flex justify-center items-center flex-col gap-2  text-center">
-                <div className="photo w-[100px] h-[100px] rounded-full bg-white overflow-hidden">
+              <div className="des_bx py-5 flex justify-center items-center flex-col gap-2  text-center">
+                <div className="photo w-[100px] h-[100px] rounded-full overflow-hidden">
                   <img
                     src={item.src}
                     alt="profile_img"
