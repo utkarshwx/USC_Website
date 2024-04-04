@@ -171,7 +171,7 @@ const LeadData = [
     postion: "Web development",
     instagram: "https://www.instagram.com/abhik_patra_/",
      gamil: "abhik2005personal@gmail.com",
-     linkedin: "https://www.instagram.com/abhik_patra_/",
+     linkedin: "https://www.linkedin.com/in/patra-abhik/",
   },
 
   {
@@ -198,9 +198,9 @@ const LeadData = [
     src: require("../assets/images/leads/aditi.jpg"),
     name: "Aditi Singh",
     postion: "Student POC",
-    instagram: "https://www.instagram.com/sourabhrex?igsh=cXI5ZTZ4c2hmdjly",
-    gamil: "mohantysourabh007@gmail.com",
-    linkedin: "https://www.linkedin.com/in/sourabh-mohanty-44110a208/",
+    instagram: "https://www.instagram.com/bhoolkrbhiidharmttaana_?igsh=aG03NmVjcW1vcnVu",
+    // gamil: "mohantysourabh007@gmail.com",
+    linkedin: "https://www.linkedin.com/in/aditi-singh-672a10268/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
   },
   {
     index: 20,
@@ -209,7 +209,7 @@ const LeadData = [
     postion: "Student POC",
     // instagram: "https://www.instagram.com/sourabhrex?igsh=cXI5ZTZ4c2hmdjly",
     // gamil: "mohantysourabh007@gmail.com",
-    // linkedin: "https://www.linkedin.com/in/sourabh-mohanty-44110a208/",
+    // linkedin: "https://www.linkedin.com/in/sourashis-bhaumik-7344612a1/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
   },
 ];
 
