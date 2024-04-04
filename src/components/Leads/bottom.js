@@ -19,7 +19,7 @@ export default function Bottom({ instagram, gamil, linkedin }) {
             <LuLinkedin className="icon" />
           </a>
         </div>
-        <div className="box bg-black">
+        <div className="box">
           <a target="_blank" href={gamil}>
             <FiGithub className="icon" />
           </a>
