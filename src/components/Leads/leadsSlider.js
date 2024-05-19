@@ -7,7 +7,7 @@ import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
 import "swiper/css";
 import "swiper/css/pagination";
-import { Navigation } from "swiper/modules";
+import { Autoplay, Navigation } from "swiper/modules";
 import "./style.css";
 import lead_data from "../../data/lead_data";
 // import LeadCard from './LeadCard';
@@ -67,7 +67,8 @@ export default function LeadSlider() {
             spaceBetweenSlides: 10,
           },
         }}
-        modules={[Navigation]}
+        modules={[Navigation,Autoplay]}
+        autoplay={{ delay: 4000 }}
         effect="cards"
         className="mySwiper"
       >
@@ -98,19 +99,19 @@ export default function LeadSlider() {
       </Swiper>
 
       <div className="contaroller_swipper">
-        <div
+        {/* <div
           className="review-swiper-button-prev  w-[40px] h-[40px] border rounded-full flex justify-center items-center absolute top-[50%] translate-y-[-50%] z-10 left-[0px] cursor-pointer"
           onClick={goPrev}
         >
-          <FaArrowLeft />
-        </div>
+          {/* <FaArrowLeft /> */}
+        {/* </div>
 
         <div
           className=" swiper-button-next w-[40px] h-[40px] border rounded-full flex justify-center items-center absolute top-[50%] translate-y-[-50%] z-10 right-[0px] cursor-pointer"
           onClick={goNext}
-        >
-          <FaArrowRight />
-        </div>
+        > */}
+          {/* <FaArrowRight /> */}
+        {/* </div> */} 
       </div>
     </div>
   );

@@ -8,6 +8,7 @@ import Gallery from "./pages/Gallery";
 import Home from "./pages/Home";
 import Error from "./pages/Error";
 import { MainProject } from "./pages/Projects";
+import Dashboard from "./components/Dashboard";
 
 function App() {
   return (
@@ -19,9 +20,10 @@ function App() {
       <Route path="/Events" element={<Events />} />
       <Route path="/Projects" element={<MainProject />} />
       <Route path="/Members" element={<Members />} />
-      <Route path="/Blogs" element={<Blog />} />
       <Route path="/Gallery" element={<Gallery />} />
       <Route path="/*" element={<Error />} />
+      <Route path="/dashboard" element={<Dashboard />} />
+
 
     </Routes>
 

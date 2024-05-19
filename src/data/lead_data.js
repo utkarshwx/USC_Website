@@ -8,6 +8,7 @@ const LeadData = [
     instagram: "https://www.instagram.com/atriclicky?igsh=enQwdG5xNmNqdDNv",
     gamil: "atricc03@gmail.com",
     linkedin: "https://www.linkedin.com/in/atri-/",
+    role:"automation_tool"
   },
   {
     index: 3,
@@ -26,6 +27,7 @@ const LeadData = [
     instagram: "https://www.instagram.com/uipathglobal/",
     gamil: "URL",
     linkedin: "https://www.linkedin.com/company/uipath/",
+    role:"automation_tool"
   },
   {
     index: 2,
@@ -145,16 +147,6 @@ const LeadData = [
     gamil: " ",
     linkedin: "https://www.linkedin.com/in/komal-jaiswal-9347522a6/",
   },
-  // {
-  //   index: 12,
-  //   src: require('../assets/images/leads/mayank.jpg'),
-  //   name: 'Mayank Singhal',
-  //   postion: 'Machine Learning',
-  //   instagram: 'https://www.instagram.com/singhalmynk?igsh=ZzJrYWx1YTkzN3Vj',
-  //   gamil: 'mayanksinghal831@gmail.com',
-  //   linkedin: 'https://www.linkedin.com/in/singhalmynk/',
-  // },
-
   {
     index: 14,
     src: require("../assets/images/leads/sushant.jpg"),
@@ -199,8 +191,8 @@ const LeadData = [
     name: "Aditi Singh",
     postion: "Student POC",
     instagram: "https://www.instagram.com/bhoolkrbhiidharmttaana_?igsh=aG03NmVjcW1vcnVu",
-    // gamil: "mohantysourabh007@gmail.com",
     linkedin: "https://www.linkedin.com/in/aditi-singh-672a10268/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    role:"poc"
   },
   {
     index: 20,
@@ -209,7 +201,8 @@ const LeadData = [
     postion: "Student POC",
     // instagram: "https://www.instagram.com/sourabhrex?igsh=cXI5ZTZ4c2hmdjly",
     // gamil: "mohantysourabh007@gmail.com",
-    // linkedin: "https://www.linkedin.com/in/sourashis-bhaumik-7344612a1/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    linkedin: "https://www.linkedin.com/in/sourashis-bhaumik-7344612a1/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    role:"poc"
   },
 ];
 

@@ -6,11 +6,11 @@ import CreativeDomainDetails from "../components/DomainsDetails/creativeDomains"
 import Footer from '../components/footer';
 export default function Domains() {
   return (
-    <section className='bg-domain mx-auto'>
+    <section className='bg-domain mx-auto mt-24'>
   
 <Navbar/>
-<div className='flex mx-auto justify-center font-bold my-10'><h1 className='md:text-6xl text-4xl text-orange-600 '>TECH</h1>
-  <h1 className='md:text-6xl text-4xl text-white pl-5'> DOMAINS</h1>
+<div className='flex  mx-auto justify-center font-bold my-10'><h1 className='md:text-6xl text-4xl text-orange-600 '>TECH</h1>
+  <h1 className='md:text-6xl text-4xl text-white pl-5 '> DOMAINS</h1>
   </div>  
     <div className='bg-domain-box  xl:mx-36 lg:mx-16 mx-4 my-20 xl:p-20 lg:p-8 rounded-2xl'>
 <DomainDataRenderer/>
