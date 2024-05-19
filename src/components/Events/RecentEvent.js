@@ -43,7 +43,7 @@ export default function RecentEvent() {
                 </Swiper>
             </div>
             <div className="w-full md:w-6/12 mt-4 md:mt-0">
-                <div className="mainContainer pl-16 ">
+                <div className="mainContainer md:pl-16 pl-0">
                     <div className="higlihted_area bg-orange-500 px-3 rounded-full py-2 w-[200px]">
                         Our Recent Activity
                     </div>

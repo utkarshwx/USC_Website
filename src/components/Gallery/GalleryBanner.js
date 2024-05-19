@@ -12,8 +12,8 @@ import 'swiper/css/effect-cards';
 import { EffectCards, Autoplay } from 'swiper/modules';
 export default function GalleryBanner() {
     return (
-        <div className='main_wrapper mt-24 w-10/12 mx-auto flex items-center'>
-               <div className="text_box w-full md:w-6/12 px-8 ">
+        <div className='main_wrapper mt-24 w-10/12 mx-auto flex flex-wrap items-center'>
+               <div className="text_box w-full md:w-6/12 md:px-8 px-0">
                 <div className="txt title text-7xl">
                     Our Gallery
                 </div>

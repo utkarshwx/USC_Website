@@ -13,7 +13,7 @@ export default function OthersEvent() {
         Past <br /> Events
         <div className='w-[55px] mt-2 h-[2px] bg-white'></div>
       </div>
-      <div className="others_boxes flex ">
+      <div className="others_boxes flex flex-wrap">
         {
           eventsData.map((item, index) =>
             <EventCard item={item} key={index} />

@@ -25,7 +25,7 @@ const Recurement = [
 export default function GalleryCard({ item, index }) {
     return (
 
-        <div className='w-4/12'>
+        <div className='lg:w-4/12 md:w-6/12 w-full'>
             <div className="wrapper p-2 overflow-hidden my-4  h-[450px]">
                 <div className="content_box border-2 border-white  rounded-lg overflow-hidden relative h-full">
                     

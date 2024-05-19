@@ -5,7 +5,7 @@ import { FaLocationDot } from "react-icons/fa6";
 export default function EventCard({item}) {
     console.log(item)
     return (
-        <div className='main_wrapper w-4/12 px-2'>
+        <div className='main_wrapper md:w-4/12 w-full px-2 my-2'>
             <div className="wrapper relative bg-[#2d3436]  rounded-lg ">
                 <div className="imageBox  p-4 overflow-hidden ">
                     <img src={item.photo} alt="img" className='rounded-[45px]' />
