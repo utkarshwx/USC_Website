@@ -80,7 +80,7 @@ export default function LeadSlider() {
                   <img
                     src={item.src}
                     alt="profile_img"
-                    className="rounded-full w-full object-contain h-full"
+                    className="rounded-full object-cover w-full object-contain h-full"
                   />
                 </div>
                 <div className="name px-2 font-semibold text-[18px]">

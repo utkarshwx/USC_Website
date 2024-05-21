@@ -1,15 +1,20 @@
 import React, { useEffect, useRef } from 'react'
 import { IoCheckmarkDoneSharp } from "react-icons/io5";
 import UserPic from '../assets/images/why-uipath.jpeg';
-import { motion, useInView, useAnimation } from 'framer-motion'
+import { motion, useInView, useAnimation } from 'framer-motion';
+import video from "../assets/BUMPER.mp4";
 export default function About() {
   const ref = useRef();
   const isInView = useInView(ref, { once: true });
   const mainAnimation = useAnimation();
+  const videoControl = useRef(null);
+
+
   useEffect(() => {
     if (isInView) {
       mainAnimation.start("visiable");
     }
+    // videoControl?.current?.play();
   }, [isInView]);
   return (
     <section className='py-14'>
@@ -150,8 +155,22 @@ export default function About() {
               initial="hidden"
               animate={mainAnimation}
               transition={{ duration: .5, delay: .80 }}
-              className="image rounded-md w-full h-[280px] bg-white">
-              <img src={UserPic} className='w-full h-full rounded-md' alt="about_img" />
+              className="image rounded-md w-full h-[250px] bg-white">
+              {/* <img src={UserPic} className='w-full h-full rounded-md' alt="about_img" /> */}
+              <video
+              
+
+                ref={videoControl} controls loop autoplay>
+                <source src={video} type="video/mp4" />
+                You can add additional source tags for different video formats
+                Your browser does not support the video tag.
+              </video>
+              {/* <video loop autoPlay>
+                <source src={require('../assets/BUMPER.mp4')} type="video/mp4" />
+              </video> */}
+              {/* <video >
+                <source src={video} type="video/mp4" />
+              </video> */}
             </motion.div>
 
           </div>

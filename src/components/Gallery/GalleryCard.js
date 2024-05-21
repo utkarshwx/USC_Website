@@ -11,6 +11,7 @@ import 'swiper/css/pagination';
 
 // import required modules
 import { Autoplay } from 'swiper/modules';
+import { useNavigate } from 'react-router-dom';
 
 const Recurement = [
     "https://res.cloudinary.com/dy0raom2p/image/upload/v1710151941/lxwbnz6zzyqwxvw5hcj7.jpg",
@@ -23,33 +24,30 @@ const Recurement = [
 ];
 
 export default function GalleryCard({ item, index }) {
+
+    const navigate = useNavigate();
+
     return (
 
-        <div className='lg:w-4/12 md:w-6/12 w-full'>
+        <div onClick={() => navigate(`/Gallery/${index}`)} className='lg:w-4/12 md:w-6/12 w-full'>
             <div className="wrapper p-2 overflow-hidden my-4  h-[450px]">
                 <div className="content_box border-2 border-white  rounded-lg overflow-hidden relative h-full">
-                    
-                        <Swiper
-                            centeredSlides={true}
-                            autoplay={{
-                                delay: 5000,
-                                disableOnInteraction: false,
-                            }}
+                    <Swiper
+                        centeredSlides={true}
+                        autoplay={{
+                            delay: 1500,
+                            disableOnInteraction: false,
+                        }}
+                        modules={[Autoplay]}
+                        className="mySwiper"
+                    >
+                        {item.photos.map((photo, index) => <SwiperSlide key={index}>
+                            <div className="image_bx h-[450px]">
+                                <img className='h-full w-full object-cover' src={photo.src} alt={`${item.tile + item.slides}`} />
+                            </div>
 
-
-                            modules={[Autoplay]}
-                            className="mySwiper"
-                        >
-                            {item.photos.map((photo, index) => <SwiperSlide key={index}>
-                                <div className="image_bx h-[450px]">
-                                    <img className='h-full w-full object-cover' src={photo} alt={`${item.tile + item.slides}`} />
-                                </div>
-
-                            </SwiperSlide>)}
-
-                            {/* Add more slides as needed */}
-                        </Swiper>
-                
+                        </SwiperSlide>)}
+                    </Swiper>
                     <div className="bottom_part z-20 p-3 bg-[#000000ad] absolute bottom-0 left-0 w-full h-[60px]">
                         <div className="content_box flex text-white justify-between">
                             <div className="left">

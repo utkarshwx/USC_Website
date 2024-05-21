@@ -9,7 +9,7 @@ import 'swiper/css/effect-cards';
 import { FaMedium } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
-
+import photos from './AutoMatrixPhoto';
 
 // import required modules
 import { EffectCards, Autoplay } from 'swiper/modules';
@@ -22,24 +22,18 @@ export default function RecentEvent() {
                     effect={'cards'}
                     grabCursor={true}
                     autoplay={{
-                        delay: 5000,
+                        delay: 2000,
                         disableOnInteraction: false,
                     }}
                     modules={[EffectCards, Autoplay]}
                     className="mySwiper"
                 >
-                    <SwiperSlide>
-                        <div className="h-[500px] bg-blue-400">Slide 1</div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <div className="h-[500px] bg-blue-900">Slide 2</div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <div className="h-[500px] bg-blue-800">Slide 3</div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <div className="h-[500px] bg-blue-600">Slide 4</div>
-                    </SwiperSlide>
+                    {photos.map((item, index) => <SwiperSlide>
+                        <div key={index} className="img_wrapper h-[500px]">
+                            <img src={item} alt="" />
+                        </div>
+                    </SwiperSlide>)}
+
                 </Swiper>
             </div>
             <div className="w-full md:w-6/12 mt-4 md:mt-0">
@@ -48,20 +42,21 @@ export default function RecentEvent() {
                         Our Recent Activity
                     </div>
                     <div className="title text-3xl my-2">
-                        Automatrix:Hands-on experience in automating email tasks, enhancing their understanding of RPA concepts in real-world scenarios
+                        Dive into Automation Magic: "Automatrix – Unleashing the Power of UiPath Studio for Email Mastery!" 🎬
                     </div>
                     <div className="descrbtion">
                         <p>
-                            On <i><b>April 4th, 2024</b></i>, USC KIIT's "AutoMatrix" workshop, with @official.sdec, introduced students to RPA via UiPath Studio. It covered features, email automation, and practical exercises, enhancing real-world RPA understanding.
+                            Participants enchanted their inboxes with UiPath Studio at our "Automatrix" workshop. They learned to set up UiPath, log into Gmail, and automate tasks like email retrieval, forwarding, saving attachments, and preserving content. Stay tuned for more spellbinding events! 🚀📧
+
                         </p>
                     </div>
                     <div className="socalMedia mt-5 flex gap-2">
-                      
-                           <SocalMediaIicon link={""} icon={<FaInstagram fill="black"/>} />
-                           <SocalMediaIicon link={""} icon={<FaLinkedin fill="black"/>} />
-                           <SocalMediaIicon link={""} icon={<FaMedium fill="black"/>} />
 
-                     
+                        <SocalMediaIicon link={""} icon={<FaInstagram fill="black" />} />
+                        <SocalMediaIicon link={""} icon={<FaLinkedin fill="black" />} />
+                        <SocalMediaIicon link={""} icon={<FaMedium fill="black" />} />
+
+
                     </div>
                 </div>
             </div>

@@ -20,7 +20,7 @@ export  const eventsData = [
   {
     date: "2 MARCH",
     name: "USC KIIT RESEARCH FORUM",
-    photo:"https://res.cloudinary.com/dy0raom2p/image/upload/v1710151941/lxwbnz6zzyqwxvw5hcj7.jpg",
+    photo:require("../assets/images/Events/Reserach_Forum.jpg"),
     descripton:
       "Get ready to embark on an exciting journey with the inauguration of the USC KIIT Research Forum! Join us as we dive into collaborative exploration, where your ideas ignite and innovations flourish under the guidance of industry-experienced mentors.",
     venue: "USC KIIT",

@@ -74,9 +74,12 @@ export default function Advisory() {
               className="lg:w-3/12 md:w-4/12 sm:w-6/12 w-full wrapper px-7"
             >
               <div className="image w-full rounded-md h-[300px] overflow-hidden ">
-                <img src={item.src} className="w-full h-full" alt="img" />
+                <img src={item.src} className="w-full h-full object-cover" alt="img" />
               </div>
               <div className="name text-center my-2 text-xl">{item.name}</div>
+              <div className="describtion text-center">
+                {item.deperment}
+              </div>
             </motion.div>
           ))}
         </div>
