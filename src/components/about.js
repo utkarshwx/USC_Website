@@ -16,6 +16,10 @@ export default function About() {
     }
     // videoControl?.current?.play();
   }, [isInView]);
+  useEffect(() => {
+
+    // videoControl?.current?.play();
+  }, []);
   return (
     <section className='py-14'>
       <div className="about_wrapper mx-auto w-11/12 py-6">
@@ -158,9 +162,11 @@ export default function About() {
               className="image rounded-md w-full h-[250px] bg-white">
               {/* <img src={UserPic} className='w-full h-full rounded-md' alt="about_img" /> */}
               <video
-              
+                title="Advertisement"
+                webkit-playsinline="true"
+                playsinline="true"
 
-                ref={videoControl} controls loop autoplay>
+                ref={videoControl} controls loop autoplay="">
                 <source src={video} type="video/mp4" />
                 You can add additional source tags for different video formats
                 Your browser does not support the video tag.

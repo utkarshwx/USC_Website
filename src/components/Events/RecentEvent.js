@@ -52,9 +52,9 @@ export default function RecentEvent() {
                     </div>
                     <div className="socalMedia mt-5 flex gap-2">
 
-                        <SocalMediaIicon link={""} icon={<FaInstagram fill="black" />} />
-                        <SocalMediaIicon link={""} icon={<FaLinkedin fill="black" />} />
-                        <SocalMediaIicon link={""} icon={<FaMedium fill="black" />} />
+                        <SocalMediaIicon link={"https://www.instagram.com/reel/C5NpAB1r8p2/?igsh=eHh2aHFqNTFvMDdh"} icon={<FaInstagram fill="black" />} />
+                        <SocalMediaIicon link={"https://www.linkedin.com/feed/update/urn:li:activity:7183069640758091776 "} icon={<FaLinkedin fill="black" />} />
+                        <SocalMediaIicon link={"https://medium.com/@uipathcommunitykiit/automatrix-a-workshop-by-uipath-student-community-kiit-b2004f6d324b "} icon={<FaMedium fill="black" />} />
 
 
                     </div>

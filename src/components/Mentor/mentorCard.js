@@ -22,7 +22,7 @@ export default function MentorCard({ name, position, src, role,delay }) {
         initial="hidden"
         animate={mainAnimation}
         transition={{ duration: .5, delay: delay }}
-        className='md:w-3/12 md:px-0 w-full px-12 mentor_card'>
+        className='md:w-5/12 md:px-0 w-full px-12 mentor_card'>
         <div className="image h-[220px] w-full relative bg-slate-200 rounded-md overflow-hidden">
             <img src={src} alt="img" className='w-full' />
         </div>

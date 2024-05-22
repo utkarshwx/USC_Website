@@ -10,7 +10,7 @@ const FacultyData = [
   {
     index: 1,
     name: 'Dr. Abhishek Ray',
-    src: require('../assets/images/IMG_0287.JPG'),
+    src: require('../assets/images/facultyImages/abhishek_2.jpg'),
     role:"POINT OF CONTACT",
 
     review:

@@ -1,7 +1,7 @@
 import React from 'react'
 import lead_data from '../../data/lead_data';
 import TeamCard from './teamCard';
-import background from "../../assets/images/member_bg.jpeg";
+import background from "../../assets/images/Galery/background_gallery.jpg";
 import LeftSide from './LeftSide';
 import RightSide from './RightSide';
 import coreMl from "../../assets/images/Galery/core_ml.jpg";
@@ -28,7 +28,7 @@ export default function TeamContainer() {
             backgroundSize: "cover",
         }} >
             <div className="wrapper w-11/12 mx-auto flex flex-wrap my-8">
-                <div className="textDomain">
+                {/* <div className="textDomain">
                     <div className="heading text-center text-4xl my-10 font-semibold">
                         Our <span className='text-orange-500'>
                             Tech Domain
@@ -52,10 +52,10 @@ export default function TeamContainer() {
                         <RightSide image={photo_graphy} normal={'Photo'} title2={"graphy"} />
                         <LeftSide image={gd} title1={'Graphic '} normal={"Design"} />
                     </div>
-                </div>
-                {/* {
+                </div> */}
+                {
                     lead_data.map((item, index) => <TeamCard key={index} name={item.name} image={item.src} postion={item.postion} />)
-                } */}
+                }
             </div>
         </div>
     )

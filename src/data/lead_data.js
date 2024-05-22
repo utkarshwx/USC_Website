@@ -3,12 +3,12 @@ const LeadData = [
     index: 0,
     src: require("../assets/images/leads/atri.jpg"),
     name: "Atri Bandyopadhyay",
-    postion: "Coordinator & UiPath Automation Tools",
+    postion: "Coordinator ",
     instagram: "https://www.instagram.com/atriclicky?igsh=enQwdG5xNmNqdDNv",
     instagram: "https://www.instagram.com/atriclicky?igsh=enQwdG5xNmNqdDNv",
     gamil: "atricc03@gmail.com",
     linkedin: "https://www.linkedin.com/in/atri-/",
-    role:"automation_tool"
+    role: "automation_tool"
   },
   {
     index: 3,
@@ -23,11 +23,11 @@ const LeadData = [
     index: 16,
     src: require("../assets/images/leads/prasun.jpg"),
     name: "Prasun Chakraborty",
-    postion: "Vice Coordinator & UiPath Automation Tools",
+    postion: "Vice Coordinator",
     instagram: "https://www.instagram.com/uipathglobal/",
     gamil: "URL",
     linkedin: "https://www.linkedin.com/company/uipath/",
-    role:"automation_tool"
+    role: "automation_tool"
   },
   {
     index: 2,
@@ -65,7 +65,7 @@ const LeadData = [
     postion: "Student POC",
     instagram: "https://www.instagram.com/bhoolkrbhiidharmttaana_?igsh=aG03NmVjcW1vcnVu",
     linkedin: "https://www.linkedin.com/in/aditi-singh-672a10268/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    role:"poc"
+    role: "poc"
   },
   {
     index: 21,
@@ -75,7 +75,7 @@ const LeadData = [
     // instagram: "https://www.instagram.com/sourabhrex?igsh=cXI5ZTZ4c2hmdjly",
     // gamil: "mohantysourabh007@gmail.com",
     linkedin: "https://www.linkedin.com/in/sourashis-bhaumik-7344612a1/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    role:"poc"
+    role: "poc"
   },
   {
     index: 8,
@@ -88,6 +88,53 @@ const LeadData = [
     linkedin: "https://www.linkedin.com/in/raima-mukherjee-416089239/",
   },
   {
+    index: 15,
+    src: require("../assets/images/leads/abhik.jpg"),
+    name: "Abhik Patra",
+    postion: "Web development",
+    instagram: "https://www.instagram.com/abhik_patra_/",
+    gamil: "abhik2005personal@gmail.com",
+    linkedin: "https://www.linkedin.com/in/patra-abhik/",
+  },
+  {
+    index: 1,
+    src: require("../assets/images/leads/hritesh.jpeg"),
+    name: "Hritesh Mondal",
+    postion: "Web Development",
+    instagram:
+      "https://www.instagram.com/_acerowl.exe_?igsh=MTY2MGZ2MDJoeTVjdQ==",
+    gamil: "hritesh04.dev@gmail.com",
+    linkedin:
+      "https://www.linkedin.com/in/hritesh-mondal-855679287?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+  },
+  {
+    index: 18,
+    src: require("../assets/images/leads/sourabh.png"),
+    name: "Sourabh Mohanty",
+    postion: "RPA & AI",
+    instagram: "https://www.instagram.com/sourabhrex?igsh=cXI5ZTZ4c2hmdjly",
+    gamil: "mohantysourabh007@gmail.com",
+    linkedin: "https://www.linkedin.com/in/sourabh-mohanty-44110a208/",
+  },
+  {
+    index: 89,
+    src: require("../assets/images/leads/atul.jpg"),
+    name: "Atul Agarwal",
+    postion: "Cloud Automation",
+    instagram: "https://www.instagram.com/atul_agrx/?igsh=MTNic2R2ZHcwcG1zbA%3D%3D",
+    gamil: "",
+    linkedin: "https://www.linkedin.com/in/atul1901?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+  },
+  {
+    index: 91,
+    src: require("../assets/images/leads/barsha.jpg"),
+    name: "Barsha Baibhabi",
+    postion: "Ui/Ux ",
+    instagram: "",
+    gamil: "",
+    linkedin: "",
+  },
+  {
     index: 9,
     src: require("../assets/images/leads/chaman.jpg"),
     name: "Chaman Kumar",
@@ -97,15 +144,15 @@ const LeadData = [
     linkedin: "https://www.linkedin.com/in/87nehal/",
   },
   {
-    index: 4,
-    src: require("../assets/images/leads/muktesh.jpg"),
-    name: "Muktesh Mishra",
-    postion: "Event Management",
-    instagram:
-      "https://www.instagram.com/som._.muktesh?igsh=MTQ4MzkzbmgwYm5yNA==",
-    gamil: "mukteshm24@gmail.com",
-    linkedin: "https://www.linkedin.com/in/muktesh-m/",
+    index: 19,
+    src: require("../assets/images/leads/Khitesha.jpg"),
+    name: "Khitesha Asipu",
+    postion: "Graphic Design",
+    instagram: "",
+    gamil: "",
+    linkedin: " ",
   },
+ 
   // {
   //   index: 6,
   //   src: require("../assets/images/leads/Devangi.jpg"),
@@ -136,15 +183,13 @@ const LeadData = [
       "https://www.linkedin.com/in/saswat-jena-32098b1b8?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
   },
   {
-    index: 1,
-    src: require("../assets/images/leads/hritesh.jpeg"),
-    name: "Hritesh Mondal",
-    postion: "Web Development",
-    instagram:
-      "https://www.instagram.com/_acerowl.exe_?igsh=MTY2MGZ2MDJoeTVjdQ==",
-    gamil: "hritesh04.dev@gmail.com",
-    linkedin:
-      "https://www.linkedin.com/in/hritesh-mondal-855679287?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    index: 14,
+    src: require("../assets/images/leads/sushant.jpg"),
+    name: "Sushant",
+    postion: "Video Editing",
+    instagram: "https://www.instagram.com/sj_k_i_n_g?igsh=MTdxbmp6M2xoMHdkcg==",
+    gamil: "sushantchoudhary586@gmail.com",
+    linkedin: "URL",
   },
   {
     index: 10,
@@ -166,23 +211,16 @@ const LeadData = [
   //   gamil: " ",
   //   linkedin: "https://www.linkedin.com/in/komal-jaiswal-9347522a6/",
   // },
+
   {
-    index: 14,
-    src: require("../assets/images/leads/sushant.jpg"),
-    name: "Sushant",
-    postion: "Video Editing",
-    instagram: "https://www.instagram.com/sj_k_i_n_g?igsh=MTdxbmp6M2xoMHdkcg==",
-    gamil: "sushantchoudhary586@gmail.com",
-    linkedin: "URL",
-  },
-  {
-    index: 15,
-    src: require("../assets/images/leads/abhik.jpg"),
-    name: "Abhik Patra",
-    postion: "Web development",
-    instagram: "https://www.instagram.com/abhik_patra_/",
-     gamil: "abhik2005personal@gmail.com",
-     linkedin: "https://www.linkedin.com/in/patra-abhik/",
+    index: 4,
+    src: require("../assets/images/leads/muktesh.jpg"),
+    name: "Muktesh Mishra",
+    postion: "Event Management",
+    instagram:
+      "https://www.instagram.com/som._.muktesh?igsh=MTQ4MzkzbmgwYm5yNA==",
+    gamil: "mukteshm24@gmail.com",
+    linkedin: "https://www.linkedin.com/in/muktesh-m/",
   },
 
   {
@@ -195,34 +233,10 @@ const LeadData = [
     gamil: "arojeettaluckdar@gmail.com",
     linkedin: "https://www.linkedin.com/in/arojeet-talukdar-2605001b2/",
   },
-  {
-    index: 18,
-    src: require("../assets/images/leads/sourabh.png"),
-    name: "Sourabh Mohanty",
-    postion: "RPA & AI",
-    instagram: "https://www.instagram.com/sourabhrex?igsh=cXI5ZTZ4c2hmdjly",
-    gamil: "mohantysourabh007@gmail.com",
-    linkedin: "https://www.linkedin.com/in/sourabh-mohanty-44110a208/",
-  },
-  {
-    index: 19,
-    src: require("../assets/images/leads/Khitesha.jpg"),
-    name: "Khitesha Asipu",
-    postion: "Graphic design",
-    instagram: "",
-    gamil: "",
-    linkedin: "",
-  },
-  {
-    index: 91,
-    src: require("../assets/images/leads/barsha.jpg"),
-    name: "Barsha Baibhabi",
-    postion: "Ui/Ux ",
-    instagram: "",
-    gamil: "",
-    linkedin: "",
-  },
- 
+
+
+
+
 ];
 
 export default LeadData;
