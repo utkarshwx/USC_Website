@@ -5,6 +5,7 @@ import background from "../assets/images/GEO_SPHERES_03.png";
 // import OthersEvent from "../components/OthersEvent"
 import OthersEvent from "./../components/Events/OthersEvent";
 import EventCard from "../components/Events/EventCard";
+import ProjectHero from "../components/projects/ProjectHero";
 
 const items = [
   {
@@ -25,8 +26,9 @@ const items = [
 
 export const MainProject = () => {
   return (
-    <div className="bg-black h-screen w-full">
+    <div className="bg-black w-full">
       <Navbar />
+      <ProjectHero/>
       <div
         style={{
           backgroundImage: `url(${background})`,
@@ -37,9 +39,10 @@ export const MainProject = () => {
           backgroundSize: "cover",
         }}
         id="project_area"
-        className="  w-11/12 mx-auto flex flex-wrap bg-project bg-center bg-contain bg-no-repeat  items-center mt-20 justify-center"
+        className="  w-11/12 mx-auto flex flex-wrap bg-project bg-center bg-contain bg-no-repeat  items-center pt-10 justify-center"
       >
-        <div className="flex flex-wrap mt-12">
+      
+        <div className="flex flex-wrap pt-10">
           {items.map((item) => (
             <EventCard item={item} />
           ))}

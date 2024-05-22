@@ -22,7 +22,7 @@ export default function EventCard({ item }) {
                     </div>}
                 </div>
                 <div className="content_bx mt-4 p-2">
-                    <div className="title">
+                    <div className="title capitalize">
                         {item.name}
 
                     </div>
