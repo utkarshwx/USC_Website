@@ -150,9 +150,9 @@ const LeadData = [
     postion: "Graphic Design",
     instagram: "",
     gamil: "",
-    linkedin: " ",
+    linkedin: "https://www.linkedin.com/in/khitesha-asipu-6502272aa/",
   },
- 
+
   // {
   //   index: 6,
   //   src: require("../assets/images/leads/Devangi.jpg"),
@@ -171,6 +171,15 @@ const LeadData = [
     instagram: "https://www.instagram.com/mousumi.dey10?igsh=eWljZDh4cDR6OTFz",
     gamil: "deymousumi1221@gmail.com",
     linkedin: "https://www.linkedin.com/in/mousumi-dey-8961b3201/",
+  },
+  {
+    index: 51,
+    src: require("../assets/images/leads/chelsea.jpg"),
+    name: "Chelsea Medda",
+    postion: "Social Media Marketing",
+    instagram: "",
+    gamil: "deymousumi1221@gmail.com",
+    linkedin: "https://www.linkedin.com/in/chelsea-medda-a46a17298/",
   },
   {
     index: 13,
