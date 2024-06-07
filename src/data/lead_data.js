@@ -25,7 +25,7 @@ const LeadData = [
     name: "Prasun Chakraborty",
     postion: "Vice Coordinator",
     instagram: "https://www.instagram.com/uipathglobal/",
-    gamil: "URL",
+    gamil: "prasunc03@gmail.com",
     linkedin: "https://www.linkedin.com/company/uipath/",
     role: "automation_tool"
   },
@@ -37,7 +37,7 @@ const LeadData = [
     instagram:
       "https://www.instagram.com/deepsikhadas._?igsh=MWRsd2dmOXBzeG12ZQ==",
     gamil: "deepsikha1104@gmail.com",
-    linkedin: "https://www.linkedin.com/in/devangi-das-667935209/",
+    linkedin: "https://www.linkedin.com/in/deepsikha-das-347976253/",
   },
   {
     index: 5,
@@ -65,15 +65,16 @@ const LeadData = [
     postion: "Student POC",
     instagram: "https://www.instagram.com/bhoolkrbhiidharmttaana_?igsh=aG03NmVjcW1vcnVu",
     linkedin: "https://www.linkedin.com/in/aditi-singh-672a10268/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    role: "poc"
+    role: "poc",
+    gamil: "aditisingh241101@gmail.com",
   },
   {
     index: 21,
     src: require("../assets/images/leads/Sourashish.jpg"),
     name: "Sourashish Bhaumik",
     postion: "Student POC",
-    // instagram: "https://www.instagram.com/sourabhrex?igsh=cXI5ZTZ4c2hmdjly",
-    // gamil: "mohantysourabh007@gmail.com",
+    instagram: "https://www.instagram.com/__soura_b__/",
+     gamil: "sourashisbhaumik@gmail.com",
     linkedin: "https://www.linkedin.com/in/sourashis-bhaumik-7344612a1/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     role: "poc"
   },
@@ -122,7 +123,7 @@ const LeadData = [
     name: "Atul Agarwal",
     postion: "Cloud Automation",
     instagram: "https://www.instagram.com/atul_agrx/?igsh=MTNic2R2ZHcwcG1zbA%3D%3D",
-    gamil: "",
+    gamil: "atulagrx@gmail.com",
     linkedin: "https://www.linkedin.com/in/atul1901?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
   },
   {
@@ -130,9 +131,9 @@ const LeadData = [
     src: require("../assets/images/leads/barsha.jpg"),
     name: "Barsha Baibhabi",
     postion: "Ui/Ux ",
-    instagram: "",
-    gamil: "",
-    linkedin: "",
+    instagram: "https://www.instagram.com/barsha.baibhabi/",
+    gamil: "barsha.baibhabi2005@gmail.com",
+    linkedin: "https://www.linkedin.com/in/barsha-baibhabi-427a612a0/",
   },
   {
     index: 9,
@@ -148,8 +149,8 @@ const LeadData = [
     src: require("../assets/images/leads/Khitesha.jpg"),
     name: "Khitesha Asipu",
     postion: "Graphic Design",
-    instagram: "",
-    gamil: "",
+    instagram: "https://www.instagram.com/itz_tesha15/",
+    gamil: "22053406@kiit.ac.in",
     linkedin: "https://www.linkedin.com/in/khitesha-asipu-6502272aa/",
   },
 
@@ -168,7 +169,7 @@ const LeadData = [
     src: require("../assets/images/leads/Mousumi.jpg"),
     name: "Mousumi Dey",
     postion: "Social Media Marketing",
-    instagram: "https://www.instagram.com/mousumi.dey10?igsh=eWljZDh4cDR6OTFz",
+    instagram: "https://www.instagram.com/lazyyyygirlalbum_/",
     gamil: "deymousumi1221@gmail.com",
     linkedin: "https://www.linkedin.com/in/mousumi-dey-8961b3201/",
   },
@@ -177,8 +178,8 @@ const LeadData = [
     src: require("../assets/images/leads/chelsea.jpg"),
     name: "Chelsea Medda",
     postion: "Social Media Marketing",
-    instagram: "",
-    gamil: "deymousumi1221@gmail.com",
+    instagram: "https://www.instagram.com/chxlsszzz/",
+    gamil: "chelseamedda01@gmail.com",
     linkedin: "https://www.linkedin.com/in/chelsea-medda-a46a17298/",
   },
   {
@@ -196,9 +197,9 @@ const LeadData = [
     src: require("../assets/images/leads/sushant.jpg"),
     name: "Sushant",
     postion: "Video Editing",
-    instagram: "https://www.instagram.com/sj_k_i_n_g?igsh=MTdxbmp6M2xoMHdkcg==",
+     instagram: "",
     gamil: "sushantchoudhary586@gmail.com",
-    linkedin: "URL",
+    linkedin: "",
   },
   {
     index: 10,
@@ -238,7 +239,7 @@ const LeadData = [
     name: "Arojeet Talukdar",
     postion: "Event Management",
     instagram:
-      "https://www.instagram.com/avirupbanerjee_02?igsh=Z2t4OHN1NDZiZWsz",
+      "https://www.instagram.com/arojeettalukdar/",
     gamil: "arojeettaluckdar@gmail.com",
     linkedin: "https://www.linkedin.com/in/arojeet-talukdar-2605001b2/",
   },
