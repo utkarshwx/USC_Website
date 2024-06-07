@@ -24,9 +24,9 @@ const LeadData = [
     src: require("../assets/images/leads/prasun.jpg"),
     name: "Prasun Chakraborty",
     postion: "Vice Coordinator",
-    instagram: "https://www.instagram.com/uipathglobal/",
+    instagram: "https://www.instagram.com/vcprasun/",
     gamil: "prasunc03@gmail.com",
-    linkedin: "https://www.linkedin.com/company/uipath/",
+    linkedin: "https://www.linkedin.com/in/prasun-chakraborty-991a36256/",
     role: "automation_tool"
   },
   {
