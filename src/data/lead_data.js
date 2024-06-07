@@ -44,7 +44,7 @@ const LeadData = [
     src: require("../assets/images/leads/Anuska.jpg"),
     name: "Anuska Maity",
     postion: "Associate Coordinator & Content Writing",
-    instagram: "https://www.instagram.com/anuska.maity?igsh=cDRuZnc2bjZ5b21t",
+    instagram: "https://www.instagram.com/_anuska.maity_/",
     gamil: "anuska09.maity@gmail.com",
     linkedin: "https://www.linkedin.com/in/anuska-maity-706340253/",
   },
