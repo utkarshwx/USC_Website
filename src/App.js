@@ -11,6 +11,9 @@ import { MainProject } from "./pages/Projects";
 import Dashboard from "./components/Dashboard";
 import PhotoPreview from "./components/Gallery/PhotoPreview";
 import Text_time from "./components/Gallery/Text_time";
+import HiringPage from "./pages/Hiring";
+import InputFrom from "./components/Hiring/InputFrom";
+
 function App() {
   return (
 
@@ -24,6 +27,10 @@ function App() {
       <Route path="/Gallery" element={<Gallery />} />
       <Route path="/justTstTHisi" element={<Text_time />} />
       <Route path="/Gallery/:id" element={<PhotoPreview />} />
+      <Route path="/hiring" element={<HiringPage />} />
+      <Route path="/input_form/:type" element={<InputFrom />} />
+
+
 
       <Route path="/*" element={<Error />} />
 

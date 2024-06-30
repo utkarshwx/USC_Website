@@ -119,3 +119,7 @@
     width: 100%; /* Set width of each photo to 100% */
   }
 }
+
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */

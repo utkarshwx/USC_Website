@@ -12,6 +12,7 @@ import Mentor from '../components/Mentor/mentor'
 import Advisory from '../components/Advisory'
 import FormerLead from '../components/Former Lead/FormerLead'
 import UiPathInfo from '../components/UiPath'
+import Announcement from '../components/Announcement'
 // import loading from "../aassets/loading.mp4";
 
 export default function Home() {
@@ -20,6 +21,9 @@ export default function Home() {
       <Navbar/>
       <Slider/>
       <Community/>
+      <Announcement/>
+   
+
       <Believe/>
       <About/>
       <UiPathInfo/>
