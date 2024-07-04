@@ -18,9 +18,9 @@ export default function Results() {
             <tbody className="mt-2">
               <tr>
                 <td className="py-2 text-xl">Marketing and Public Relations</td>
-                <td className="py-2 text-xl">
-                    <a href="https://drive.google.com/file/d/1eRloMQhA5h6frjxB9liSu4Ey2Jzwcd-A/view" target="_blank">
-                    <FaFilePdf className="cursor-pointer" />
+                <td className="py-2 text-2xl px-6">
+                <a href="https://drive.google.com/file/d/1eRloMQhA5h6frjxB9liSu4Ey2Jzwcd-A/view" target="_blank">
+                    <FaFilePdf className="cursor-pointer text-orange-700" />
                     </a>
                 </td>
    
