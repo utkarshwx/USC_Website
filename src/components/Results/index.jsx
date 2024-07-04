@@ -19,7 +19,7 @@ export default function Results() {
               <tr>
                 <td className="py-2 text-xl">Marketing and Public Relations</td>
                 <td className="py-2 text-xl">
-                    <a href="https://drive.google.com/file/d/132iwvZFFhpykpF0IRq-k3wFVMkQru5qF/view" target="_blank">
+                    <a href="https://drive.google.com/file/d/1eRloMQhA5h6frjxB9liSu4Ey2Jzwcd-A/view" target="_blank">
                     <FaFilePdf className="cursor-pointer" />
                     </a>
                 </td>
