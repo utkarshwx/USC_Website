@@ -11,7 +11,7 @@ const TechDomainDetails = ({ image, name, description, buttonLink }) => {
         <div className="md:w-2/3 w-full p-5">
           <div className="text-4xl py-4 font-bold text-center text-orange-500">{name}</div>
           <div className="text-sm">{description}</div>
-          <div><a target="_blank" href={buttonLink}><button className="px-4 p-1 my-5 mt-10 text-lg rounded-xl bg-orange-500">More info</button></a></div>
+          <div><a target="_blank" href={buttonLink}><button className="px-16 p-4 my-5 mt-10 text-lg rounded-xl bg-orange-400 text-nowrap hover:bg-orange-500 hover:shadow-md duration-300">More Info</button></a></div>
         </div>
       </div>
 
